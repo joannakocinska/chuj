@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.zdjecia{
+    display: flex;
+    justify-content: center;
+
+}
+.zdjecie{
+    height: 15vw;
+    width: 15vw;
+    overflow: hidden;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.zdjecie img{
+    height: 100%;
+
+}
+h1{
+    margin:0;
+}
